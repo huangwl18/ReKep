@@ -1,0 +1,932 @@
+{
+    "metadata": {},
+    "state": {
+        "system_registry": {},
+        "object_registry": {
+            "ceilings_jfsbfp_0": {
+                "root_link": {
+                    "pos": [
+                        -3.0498788356781006,
+                        2.527890920639038,
+                        2.549999713897705
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "ceilings_phrrml_0": {
+                "root_link": {
+                    "pos": [
+                        -0.06987879425287247,
+                        -1.287109375,
+                        2.549999713897705
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "ceilings_rhfker_0": {
+                "root_link": {
+                    "pos": [
+                        1.2158854007720947,
+                        2.5133121013641357,
+                        2.549999952316284
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "ceilings_yimfml_0": {
+                "root_link": {
+                    "pos": [
+                        -0.793107271194458,
+                        2.536679267883301,
+                        2.549999952316284
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "ceilings_zlhppj_0": {
+                "root_link": {
+                    "pos": [
+                        -3.0498788356781006,
+                        -0.24460941553115845,
+                        2.549999713897705
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "floors_avvnuv_0": {
+                "root_link": {
+                    "pos": [
+                        -3.0498788356781006,
+                        2.527891159057617,
+                        -0.15000027418136597
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "floors_gjemfr_0": {
+                "root_link": {
+                    "pos": [
+                        1.2158854007720947,
+                        2.5133121013641357,
+                        -0.15000024437904358
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "floors_ifmioj_0": {
+                "root_link": {
+                    "pos": [
+                        -0.793107271194458,
+                        2.536679267883301,
+                        -0.15000024437904358
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "floors_ptwlei_0": {
+                "root_link": {
+                    "pos": [
+                        -0.06987883150577545,
+                        -1.287109136581421,
+                        -0.15000025928020477
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "floors_ucjdgj_0": {
+                "root_link": {
+                    "pos": [
+                        -3.0498788356781006,
+                        -0.24460916221141815,
+                        -0.15000034868717194
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "walls_axhynp_0": {
+                "root_link": {
+                    "pos": [
+                        -1.233049750328064,
+                        3.5148379802703857,
+                        1.1139445304870605
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "walls_bcjmdz_0": {
+                "root_link": {
+                    "pos": [
+                        1.940032720565796,
+                        -0.25174951553344727,
+                        1.0881959199905396
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "walls_dekben_0": {
+                "root_link": {
+                    "pos": [
+                        -0.04535660520195961,
+                        -4.115162372589111,
+                        1.0688008069992065
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "walls_exiopd_0": {
+                "root_link": {
+                    "pos": [
+                        -1.1345733404159546,
+                        1.54094398021698,
+                        1.143774390220642
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "walls_gxvfxw_0": {
+                "root_link": {
+                    "pos": [
+                        -2.0799880027770996,
+                        -0.2523879408836365,
+                        1.130429983139038
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "walls_gxynpx_0": {
+                "root_link": {
+                    "pos": [
+                        -3.062925100326538,
+                        -2.0301620960235596,
+                        1.1158838272094727
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "walls_xlgydu_0": {
+                "root_link": {
+                    "pos": [
+                        -4.019967555999756,
+                        0.7578846216201782,
+                        1.0950665473937988
+                    ],
+                    "ori": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "table_1": {
+                "root_link": {
+                    "pos": [
+                        0.13507460057735443,
+                        -0.020923776552081108,
+                        0.5174875855445862
+                    ],
+                    "ori": [
+                        5.044171302870382e-09,
+                        -1.635271473787725e-09,
+                        0.002193866763263941,
+                        0.9999977946281433
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "pen_1": {
+                "root_link": {
+                    "pos": [
+                        -0.30,
+                        -0.15,
+                        0.7780028676986694
+                    ],
+                    "ori": [ -0.7071068, 0, 0, 0.7071068 ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            },
+            "pencil_holder_1": {
+                "root_link": {
+                    "pos": [
+                        -0.30,
+                        0.15,
+                        0.7163046002388
+                    ],
+                    "ori": [
+                        0.00011037533113267273,
+                        -0.00012373141362331808,
+                        -1.8041100702248514e-06,
+                        1.0000001192092896
+                    ],
+                    "lin_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ],
+                    "ang_vel": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                },
+                "joints": {},
+                "non_kin": {}
+            }
+        }
+    },
+    "objects_info": {
+        "init_info": {
+            "ceilings_jfsbfp_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "ceilings_jfsbfp_0",
+                    "prim_path": "/World/ceilings_jfsbfp_0",
+                    "category": "ceilings",
+                    "model": "jfsbfp",
+                    "uuid": 48693673,
+                    "scale": [
+                        1.0000121190165758,
+                        1.0000027376842497,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": [
+                        "bathroom_0"
+                    ],
+                    "bddl_object_scope": null
+                }
+            },
+            "ceilings_phrrml_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "ceilings_phrrml_0",
+                    "prim_path": "/World/ceilings_phrrml_0",
+                    "category": "ceilings",
+                    "model": "phrrml",
+                    "uuid": 74173089,
+                    "scale": [
+                        0.9999942598615925,
+                        0.9999986871377896,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": [
+                        "living_room_0"
+                    ],
+                    "bddl_object_scope": null
+                }
+            },
+            "ceilings_rhfker_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "ceilings_rhfker_0",
+                    "prim_path": "/World/ceilings_rhfker_0",
+                    "category": "ceilings",
+                    "model": "rhfker",
+                    "uuid": 42059608,
+                    "scale": [
+                        1.0000056252610265,
+                        1.000002918863586,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": [
+                        "entryway_0"
+                    ],
+                    "bddl_object_scope": null
+                }
+            },
+            "ceilings_yimfml_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "ceilings_yimfml_0",
+                    "prim_path": "/World/ceilings_yimfml_0",
+                    "category": "ceilings",
+                    "model": "yimfml",
+                    "uuid": 33802283,
+                    "scale": [
+                        0.999999934791504,
+                        1.0000027376842497,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": [
+                        "kitchen_0"
+                    ],
+                    "bddl_object_scope": null
+                }
+            },
+            "ceilings_zlhppj_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "ceilings_zlhppj_0",
+                    "prim_path": "/World/ceilings_zlhppj_0",
+                    "category": "ceilings",
+                    "model": "zlhppj",
+                    "uuid": 97287247,
+                    "scale": [
+                        1.0000119961301062,
+                        0.9999980648281501,
+                        1.0000008543339716
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": [
+                        "bedroom_0"
+                    ],
+                    "bddl_object_scope": null
+                }
+            },
+            "floors_avvnuv_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "floors_avvnuv_0",
+                    "prim_path": "/World/floors_avvnuv_0",
+                    "category": "floors",
+                    "model": "avvnuv",
+                    "uuid": 12717065,
+                    "scale": [
+                        1.0000121190165758,
+                        1.0000027376842497,
+                        1.0000001589457446
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": [
+                        "bathroom_0"
+                    ],
+                    "bddl_object_scope": null
+                }
+            },
+            "floors_gjemfr_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "floors_gjemfr_0",
+                    "prim_path": "/World/floors_gjemfr_0",
+                    "category": "floors",
+                    "model": "gjemfr",
+                    "uuid": 94669642,
+                    "scale": [
+                        1.0000056252610265,
+                        1.000002918863586,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": [
+                        "entryway_0"
+                    ],
+                    "bddl_object_scope": null
+                }
+            },
+            "floors_ifmioj_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "floors_ifmioj_0",
+                    "prim_path": "/World/floors_ifmioj_0",
+                    "category": "floors",
+                    "model": "ifmioj",
+                    "uuid": 62654673,
+                    "scale": [
+                        0.999999934791504,
+                        1.0000027376842497,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": [
+                        "kitchen_0"
+                    ],
+                    "bddl_object_scope": null
+                }
+            },
+            "floors_ptwlei_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "floors_ptwlei_0",
+                    "prim_path": "/World/floors_ptwlei_0",
+                    "category": "floors",
+                    "model": "ptwlei",
+                    "uuid": 64419761,
+                    "scale": [
+                        0.9999942598615925,
+                        0.9999987714425131,
+                        1.0000000596046483
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": [
+                        "living_room_0"
+                    ],
+                    "bddl_object_scope": null
+                }
+            },
+            "floors_ucjdgj_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "floors_ucjdgj_0",
+                    "prim_path": "/World/floors_ucjdgj_0",
+                    "category": "floors",
+                    "model": "ucjdgj",
+                    "uuid": 82484688,
+                    "scale": [
+                        1.0000119961301062,
+                        0.9999980648281501,
+                        1.0000007549927372
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": [
+                        "bedroom_0"
+                    ],
+                    "bddl_object_scope": null
+                }
+            },
+            "walls_axhynp_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "walls_axhynp_0",
+                    "prim_path": "/World/walls_axhynp_0",
+                    "category": "walls",
+                    "model": "axhynp",
+                    "uuid": 67186365,
+                    "scale": [
+                        1.000001272100645,
+                        1.0000595362588338,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": "",
+                    "bddl_object_scope": null
+                }
+            },
+            "walls_bcjmdz_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "walls_bcjmdz_0",
+                    "prim_path": "/World/walls_bcjmdz_0",
+                    "category": "walls",
+                    "model": "bcjmdz",
+                    "uuid": 52223757,
+                    "scale": [
+                        1.000050671594632,
+                        1.00000099325917,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": "",
+                    "bddl_object_scope": null
+                }
+            },
+            "walls_dekben_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "walls_dekben_0",
+                    "prim_path": "/World/walls_dekben_0",
+                    "category": "walls",
+                    "model": "dekben",
+                    "uuid": 34758690,
+                    "scale": [
+                        1.0000019097954302,
+                        1.0000432761023288,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": "",
+                    "bddl_object_scope": null
+                }
+            },
+            "walls_exiopd_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "walls_exiopd_0",
+                    "prim_path": "/World/walls_exiopd_0",
+                    "category": "walls",
+                    "model": "exiopd",
+                    "uuid": 62109373,
+                    "scale": [
+                        1.000001345225585,
+                        1.000042018513113,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": "",
+                    "bddl_object_scope": null
+                }
+            },
+            "walls_gxvfxw_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "walls_gxvfxw_0",
+                    "prim_path": "/World/walls_gxvfxw_0",
+                    "category": "walls",
+                    "model": "gxvfxw",
+                    "uuid": 39069885,
+                    "scale": [
+                        1.0000561936004457,
+                        1.0000009917765513,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": "",
+                    "bddl_object_scope": null
+                }
+            },
+            "walls_gxynpx_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "walls_gxynpx_0",
+                    "prim_path": "/World/walls_gxynpx_0",
+                    "category": "walls",
+                    "model": "gxynpx",
+                    "uuid": 60001904,
+                    "scale": [
+                        1.0000041226080834,
+                        1.0000436412659373,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": "",
+                    "bddl_object_scope": null
+                }
+            },
+            "walls_xlgydu_0": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "walls_xlgydu_0",
+                    "prim_path": "/World/walls_xlgydu_0",
+                    "category": "walls",
+                    "model": "xlgydu",
+                    "uuid": 99082996,
+                    "scale": [
+                        1.0000498312191335,
+                        1.0000013621939055,
+                        0.9999999602635717
+                    ],
+                    "fixed_base": true,
+                    "in_rooms": "",
+                    "bddl_object_scope": null
+                }
+            },
+            "table_1": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "table_1",
+                    "prim_path": "/World/table_1",
+                    "category": "breakfast_table",
+                    "model": "dnsjnv",
+                    "uuid": 88058023,
+                    "scale": 2
+                }
+            },
+            "pen_1": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "pen_1",
+                    "prim_path": "/World/pen_1",
+                    "category": "pen",
+                    "model": "gqwdor",
+                    "scale": [
+                        3.0,
+                        3.0,
+                        1.3
+                    ]
+                }
+            },
+            "pencil_holder_1": {
+                "class_module": "omnigibson.objects.dataset_object",
+                "class_name": "DatasetObject",
+                "args": {
+                    "name": "pencil_holder_1",
+                    "prim_path": "/World/pencil_holder_1",
+                    "category": "pencil_holder",
+                    "model": "muqeud",
+                    "scale": [
+                        1.5,
+                        1.5,
+                        1.0
+                    ]
+                }
+            }
+        }
+    }
+}

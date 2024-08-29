@@ -1,0 +1,4 @@
+def stage2_path_constraint1(end_effector, keypoints):
+    """The robot must still be grasping the white pen (keypoint 1)."""
+    return get_grasping_cost_by_keypoint_idx(1)
+

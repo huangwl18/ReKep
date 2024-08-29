@@ -1,0 +1,110 @@
+device: &device 'cuda'
+seed: &seed 0
+
+main:
+  interpolate_pos_step_size: &interpolate_pos_step_size 0.05  # controls the density of the final returned path
+  interpolate_rot_step_size: &interpolate_rot_step_size 0.34  # about 20 degrees
+  grasp_depth: 0.10
+  constraint_tolerance: 0.10  # for backtracking
+  bounds_min: &bounds_min [-0.45, -0.75, 0.698]
+  bounds_max: &bounds_max [0.10, 0.60, 1.2]
+  sdf_voxel_size: 0.01
+  vlm_camera: 0
+  action_steps_per_iter: 5
+  seed: *seed
+
+env:
+  video_cache_size: 2000
+  og_sim:
+    physics_frequency: 100
+    action_frequency: 15
+    
+  scene:
+    name: Rs_int
+    type: InteractiveTraversableScene
+    scene_model: Rs_int
+
+  bounds_min: *bounds_min
+  bounds_max: *bounds_max
+  interpolate_pos_step_size: *interpolate_pos_step_size
+  interpolate_rot_step_size: *interpolate_rot_step_size
+
+  robot:
+    robot_config:
+      name: Fetch
+      type: Fetch
+      obs_modalities: [rgb, depth]
+      action_modalities: continuous
+      action_normalize: False
+      position: [-0.8, 0.0, 0.]
+      grasping_mode: assisted
+
+      controller_config:
+        base:
+          name: DifferentialDriveController
+        arm_0:
+          name: OperationalSpaceController
+          kp: 250
+          kp_limits: [50, 400]
+          damping_ratio: 0.6
+        gripper_0:
+          name: MultiFingerGripperController
+          command_input_limits: [0.0, 1.0]
+          mode: smooth
+        camera:
+          name: JointController
+
+  camera:
+    # recorder 
+    1:
+      name: cam_1
+      position: [ 0.6137,  0.4764,  1.4565]
+      orientation: [ 0.3212,  0.4682,  0.6788,  0.4656]
+      resolution: 480
+
+    # vlm camera
+    0:
+      name: cam_0
+      position: [-0.1655,  0.0167,  1.3664]
+      orientation: [ 0.0550,  0.0544,  0.7010,  0.7090]
+      resolution: 480
+
+path_solver:
+  opt_pos_step_size: 0.20  # controls the density of control points in the path
+  opt_rot_step_size: 0.78  # controls the density of control points in the path
+  opt_interpolate_pos_step_size: 0.02  # controls the density of collision checking inside optimization
+  opt_interpolate_rot_step_size: 0.10
+  max_collision_points: 60
+  sampling_maxfun: 5000
+  bounds_min: *bounds_min
+  bounds_max: *bounds_max
+  constraint_tolerance: 0.0001
+  minimizer_options:
+    maxiter: 200
+
+subgoal_solver:
+  bounds_min: *bounds_min
+  bounds_max: *bounds_max
+  sampling_maxfun: 5000
+  max_collision_points: 60
+  constraint_tolerance: 0.0001
+  minimizer_options:
+    maxiter: 200
+
+keypoint_proposer:
+  num_candidates_per_mask: 5
+  min_dist_bt_keypoints: 0.06
+  max_mask_ratio: 0.5
+  device: *device
+  bounds_min: *bounds_min
+  bounds_max: *bounds_max
+  seed: *seed
+
+constraint_generator:
+  model: chatgpt-4o-latest
+  temperature: 0.0
+  max_tokens: 2048
+
+visualizer:
+  bounds_min: *bounds_min
+  bounds_max: *bounds_max

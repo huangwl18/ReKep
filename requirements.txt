@@ -1,0 +1,8 @@
+open3d==0.16.0
+omegaconf
+opencv-python
+hydra-core
+openai
+torch
+kmeans_pytorch
+parse

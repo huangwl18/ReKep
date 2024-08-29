@@ -1,0 +1,7 @@
+def stage2_subgoal_constraint1(end_effector, keypoints):
+    """Ensure the white pen is upright by aligning the vector from keypoint 0 to keypoint 1 with the z-axis."""
+    pen_vector = keypoints[1] - keypoints[0]
+    z_axis = np.array([0, 0, 1])
+    cost = np.linalg.norm(np.cross(pen_vector, z_axis))
+    return cost
+
