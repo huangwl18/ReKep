@@ -2,9 +2,9 @@
 
 #### [[Project Page]](https://rekep-robot.github.io/) [[Paper]](https://rekep-robot.github.io/rekep.pdf) [[Video]](https://youtu.be/2S8YhBdLdww)
 
-[Wenlong Huang](https://wenlong.page)<sup>1</sup>, [Chen Wang](https://www.chenwangjeremy.net/)<sup>*1</sup>, [Yunzhu Li](https://yunzhuli.github.io/)<sup>*2,3</sup>, [Ruohan Zhang](https://ai.stanford.edu/~zharu/)<sup>1</sup>, [Li Fei-Fei](https://profiles.stanford.edu/fei-fei-li)<sup>1</sup>
+[Wenlong Huang](https://wenlong.page)<sup>1</sup>, [Chen Wang](https://www.chenwangjeremy.net/)<sup>1*</sup>, [Yunzhu Li](https://yunzhuli.github.io/)<sup>2*</sup>, [Ruohan Zhang](https://ai.stanford.edu/~zharu/)<sup>1</sup>, [Li Fei-Fei](https://profiles.stanford.edu/fei-fei-li)<sup>1</sup> (\* indicates equal contributions)
 
-<sup>1</sup>Stanford University, <sup>2</sup>UIUC, <sup>3</sup>Columbia University
+<sup>1</sup>Stanford University, <sup>3</sup>Columbia University
 
 <img  src="media/pen-in-holder-disturbances.gif" width="550">
 
